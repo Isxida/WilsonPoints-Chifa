@@ -317,6 +317,62 @@ function initMap() {
     infoMenHong.open(map,marcadorMenHong);
   });  
 
+    //Chifa Jon We  
+  var  jonWe = '<p>Chifa Jon We - Av Talara 549, Jes&uacute;s Mar&iacute;a - Recomendado por Carlos Wertheman</p></br><p>"Al lado de la panader&iacute;a el arte del pan."</p>'
+  var infoJonWe = new google.maps.InfoWindow({
+    content: jonWe
+  });
+  var marcadorJonWe = new google.maps.Marker({
+      position: {lat:-12.071132, lng: -77.044252},
+      title: 'Chifa Jon We',
+      map:map 
+    });
+  marcadorMenHong.addListener('click', function() {
+    infoJonWe.open(map,marcadorJonWe);
+  });  
 
+    //Chifa Felicidad
+  var felicidad = '<p>Chifa Felicidad - Cruce con Av. Venezuela, Sta Bernardita - Recomendado por Kael Xavier</p></br><p>"Buen sabor y platos variados adem&aacute;s venden Min-Pao caseros"</p>'
+  var infoFelicidad = new google.maps.InfoWindow({
+    content: felicidad
+  });
+  var marcadorFelicidad = new google.maps.Marker({
+      position: {lat: -12.059608, lng: -77.075406},
+      title: 'Chifa Felicidad',
+      map:map 
+    });
+  marcadorFelicidad.addListener('click', function() {
+    infoFelicidad.open(map,marcadorFelicidad);
+  });  
+
+
+    //Chifa Toronto
+  var toronto = '<p>Chifa Toronto - Av. 2 de Mayo 1636, San Isidro- Recomendado por Gabriel Torres</p></br><p>"Rico, buena calidad y precios comodos"</p>'
+  var infoToronto = new google.maps.InfoWindow({
+    content: toronto
+  });
+  var marcadorToronto = new google.maps.Marker({
+      position: {lat: -12.092581, lng: -77.047984},
+      title: 'Chifa Toronto',
+      map:map 
+    });
+  marcadorToronto.addListener('click', function() {
+    infoToronto.open(map,marcadorToronto);
+  });  
+
+
+  //Chifa Miraflores
+  var miraflores = '<p>Chifa Toronto - Av. Ricardo Palma 322, Miraflores - Recomendado por Javier Ecm</p></br><p>"El aeropuerto es muy recomendado."</p>'
+  var infoMiraflores = new google.maps.InfoWindow({
+    content: miraflores
+  });
+  var marcadorMiraflores = new google.maps.Marker({
+      position: {lat: -12.119234, lng: -77.026571},
+      title: 'Chifa Miraflores',
+      map:map 
+    });
+  marcadorMiraflores.addListener('click', function() {
+    infoMiraflores.open(map,marcadorMiraflores);
+  }); 
 }
 
