@@ -362,7 +362,7 @@ function initMap() {
 
 
   //Chifa Miraflores
-  var miraflores = '<p>Chifa Toronto - Av. Ricardo Palma 322, Miraflores - Recomendado por Javier Ecm</p></br><p>"El aeropuerto es muy recomendado."</p>'
+  var miraflores = '<p>Chifa Miraflores - Av. Ricardo Palma 322, Miraflores - Recomendado por Javier Ecm</p></br><p>"El aeropuerto es muy recomendado."</p>'
   var infoMiraflores = new google.maps.InfoWindow({
     content: miraflores
   });
